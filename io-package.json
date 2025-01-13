@@ -1,0 +1,84 @@
+{
+    "common": {
+        "name": "gatewayapi",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "GatewayAPI",
+            "de": "GatewayAPI",
+            "ru": "API шлюза",
+            "pt": "GatewayAPI",
+            "nl": "GatewayAPI",
+            "fr": "PasserelleAPI",
+            "it": "GatewayAPI",
+            "es": "API de puerta de enlace",
+            "pl": "Interfejs API bramy",
+            "uk": "GatewayAPI",
+            "zh-cn": "网关API"
+        },
+        "desc": {
+            "en": "Send SMS with service gatewayapi.com",
+            "de": "Senden Sie SMS mit dem Dienst Gatewayapi.com",
+            "ru": "Отправьте СМС с помощью сервиса Gateapi.com",
+            "pt": "Envie SMS com serviço gatewayapi.com",
+            "nl": "Sms versturen met service gatewayapi.com",
+            "fr": "Envoyer des SMS avec le service gatewayapi.com",
+            "it": "Invia SMS con il servizio gatewayapi.com",
+            "es": "Enviar SMS con servicio gatewayapi.com",
+            "pl": "Wyślij SMS-a za pomocą usługi gatewayapi.com",
+            "uk": "Надсилайте SMS за допомогою сервісу gatewayapi.com",
+            "zh-cn": "使用服务 gatewayapi.com 发送短信"
+        },
+        "authors": ["DEV2DEV <github@dev2dev.de>"],
+        "keywords": ["sms"],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "gatewayapi.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/DEV2DEV_DE/ioBroker.gatewayapi/main/admin/gatewayapi.png",
+        "readme": "https://github.com/DEV2DEV_DE/ioBroker.gatewayapi/blob/main/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "alarm",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "push",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": "7.0.23"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
